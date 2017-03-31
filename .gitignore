@@ -1,0 +1,5 @@
+roles/*
+!roles/consul-template
+
+# Ansible
+tests/*.retry
