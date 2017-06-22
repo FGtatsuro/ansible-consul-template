@@ -20,6 +20,19 @@ Role Variables
 
 The variables we can use in this role.
 
+### Only Linux
+
+These values are valid only on Linux.
+
+|name|description|type|default|
+|---|---|---|---|
+|consul_template_download_url|Download URL of Consul Template archive.|str|https://releases.hashicorp.com/consul-template/0.18.5/consul-template_0.18.5_linux_amd64.tgz|
+|consul_template_sha256|SHA256 signature of Consul Template archive.|str|f3eea6dcb480ba1f82cd14c6a8f7a739dc844ac067a3541cd186eb4f9920e4e3|
+|consul_template_download_tmppath|File path downloaded Consul Template archive is put temporary.|str|/tmp/consul_template.zip|
+|consul_template_bin_dir|Directory path Consul Template binary is put. The path of Consul Template binary is `{{ consul_template_bin_dir }}/consul-template`.|str|/usr/local/bin|
+
+- If you want to overwrite values, please also check https://releases.hashicorp.com/consul-template.
+
 Role Dependencies
 -----------------
 
