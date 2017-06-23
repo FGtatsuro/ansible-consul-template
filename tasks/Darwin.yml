@@ -1,2 +1,6 @@
 ---
 # tasks file for consul-template(On OSX)
+- name: Install Consul Template with Homebrew
+  homebrew:
+    name: 'consul-template'
+    update_homebrew: yes

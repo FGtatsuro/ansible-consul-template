@@ -1,2 +1,6 @@
 ---
 # defaults file for consul-template
+consul_template_download_url: 'https://releases.hashicorp.com/consul-template/0.18.5/consul-template_0.18.5_linux_amd64.zip'
+consul_template_sha256: 'b0cd6e821d6150c9a0166681072c12e906ed549ef4588f73ed58c9d834295cd2'
+consul_template_download_tmppath: '/tmp/consul_template.zip'
+consul_template_bin_dir: '/usr/local/bin'
