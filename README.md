@@ -26,8 +26,8 @@ These values are valid only on Linux.
 
 |name|description|type|default|
 |---|---|---|---|
-|consul_template_download_url|Download URL of Consul Template archive.|str|https://releases.hashicorp.com/consul-template/0.18.5/consul-template_0.18.5_linux_amd64.zip|
-|consul_template_sha256|SHA256 signature of Consul Template archive.|str|b0cd6e821d6150c9a0166681072c12e906ed549ef4588f73ed58c9d834295cd2|
+|consul_template_download_url|Download URL of Consul Template archive.|str|https://releases.hashicorp.com/consul-template/0.19.4/consul-template_0.19.4_linux_amd64.zip|
+|consul_template_sha256|SHA256 signature of Consul Template archive.|str|5f70a7fb626ea8c332487c491924e0a2d594637de709e5b430ecffc83088abc0|
 |consul_template_download_tmppath|File path downloaded Consul Template archive is put temporary.|str|/tmp/consul_template.zip|
 |consul_template_bin_dir|Directory path Consul Template binary is put. The path of Consul Template binary is `{{ consul_template_bin_dir }}/consul-template`.|str|/usr/local/bin|
 
